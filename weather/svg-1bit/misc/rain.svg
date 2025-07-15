@@ -1,0 +1,14 @@
+<svg x="0" y="0" viewBox="0 0 37 23"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <symbol id="raindrop">
+        <path fill="#000000" d="M2.5,13A2.5,2.5,0,0,1,.21,9.51l3.55-8a2.5,2.5,0,0,1,4.57,2l-3.55,8A2.5,2.5,0,0,1,2.5,13Z"></path>
+    </symbol>
+
+    <symbol id="s09">
+        <use xlink:href="#raindrop" x="0" y="0" width="37" height="23" transform="translate(1,1) scale(1,1)"></use>
+        <use xlink:href="#raindrop" x="0" y="0" width="37" height="23" transform="translate(13,9) scale(1,1)"></use>
+        <use xlink:href="#raindrop" x="0" y="0" width="37" height="23" transform="translate(28,1) scale(1,1)"></use>
+    </symbol>
+    <use xlink:href="#s09" x="0" y="0" width="37" height="23"></use>
+</svg>
